@@ -1,12 +1,13 @@
 <?php
-$host     = "localhost";
-$dbname   = "oxumeddental";
+$host     = "thomas.proxy.rlwy.net";
+$port     = "44322";
+$dbname   = "railway";
 $username = "root";
-$password = "";
+$password = "QEdoOFLywGDehODUiwWzxHPkUXmfXaZu";
 
 try {
     $pdo = new PDO(
-        "mysql:host=$host;dbname=$dbname;charset=utf8mb4",
+        "mysql:host=$host;port=$port;dbname=$dbname;charset=utf8mb4",
         $username,
         $password
     );
